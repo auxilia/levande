@@ -1,0 +1,10 @@
+<Project>
+    <PropertyGroup Label="Configure assembly names and namespaces">
+        <AssemblyName>$(SolutionName).$(MSBuildProjectName)</AssemblyName>
+        <RootNamespace>$(AssemblyName)</RootNamespace>
+    </PropertyGroup>
+    <PropertyGroup Label="Configure project settings">
+        <Nullable>enable</Nullable>
+        <LangVersion>8.0</LangVersion>
+    </PropertyGroup>
+</Project>
